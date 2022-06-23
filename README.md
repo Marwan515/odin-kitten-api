@@ -1,24 +1,5 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<div>
+<h1>This Is A Project From <a href="https://www.theodinproject.com/">TheOdinProject</a> Curriculum</h1><br>
+<h3>For Project Details <a href="https://www.theodinproject.com/lessons/ruby-on-rails-kittens-api">Click Here</a></h3><br>
+<h4>In This Project I'll Be Building My First API</h4>
+</div>
