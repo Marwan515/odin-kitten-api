@@ -1,0 +1,15 @@
+<div class="container-fluid">
+  <%= link_to "Create Kitten", new_kitten_path %>
+  <% @kitten.each do |k| %>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title"><%= k.name %></h5>
+      <p class="card-text">Age: <%= k.age %></p>
+      <p class="card-text">Cuteness: <%= k.cuteness %></p>
+      <p class="card-text">Softness: <%=k.softness %></p>
+    </div>
+    <%= link_to "kitten", k, class:"btn btn-primary" %>
+    <%= button_to "Delete", k, method: :delete , class:"btn btn-danger" %>
+  </div>
+  <% end %>
+</div>

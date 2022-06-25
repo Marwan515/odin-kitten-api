@@ -1,0 +1,7 @@
+<%= form_with(model: @kitten) do |f| %>
+  <%= f.text_field :name, placeholder:"Name Of Your Kitten"%>
+  <%= f.number_field :age, placeholder:"Age Of Your Kitten" %>
+  <%= f.text_field :cuteness, placeholder:"Your Kittens Cuteness" %>
+  <%= f.text_field :softness, placeholder:"Your Kittens Softness" %>
+  <%= f.submit "Submit", class:"btn btn-primary" %>
+<% end %>

@@ -1,0 +1,13 @@
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title"><%= @kitten.name %></h5>
+    <p class="card-text">Age: <%= @kitten.age %></p>
+    <p class="card-text">Cuteness: <%= @kitten.cuteness %></p>
+    <p class="card-text">Softness: <%= @kitten.softness %></p>
+  </div>
+</div>
+<div class="d-grid gap-2">
+    <%= link_to "Edit", edit_kitten_path, class:"btn btn-primary" %>
+    <%= button_to "Delete", @kitten, method: :delete , class:"btn btn-danger" %>
+    <%= link_to "Home", root_path, class:"btn btn-primary" %>
+</div>
